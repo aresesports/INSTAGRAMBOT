@@ -1,0 +1,24 @@
+DESCRIPTION:
+
+The instabot.py is a working instabot which automatically logs into your Instagram Account and LIKES,COMMENTS,FOLLOWS specified number of posts as specified in config.ini file.
+This works through HEADLESS CHROME BROWSER and prints the log at the terminal
+
+
+REQUIREMENTS TO RUN THIS CODE:
+1. Python 3.8.3
+2. Selenium
+3. Google Chrome Version 83.0.4103.116 (Official Build)
+
+HOW TO RUN THIS:
+1.Download this repository to your Local Machine
+2.Add the path of "CHROMEDRIVER.EXE" as in your LOCAL MACHINE in line 19
+((((((self.driver =  webdriver.Chrome((r'C:\Users\Shrinivas\Desktop\INSTAGRAMBOT-master\chromedriver.exe'), chrome_options=chrome_options)))))) ---this line
+((((Change "C:\Users\Shrinivas\Desktop\INSTAGRAMBOT-master\chromedriver.exe" to the path of "CHROMEDRIVER.EXE" in the dowloaded repo in your LOCAL MACHINE))))
+3.Add your Instagram login credentials in the "CONFIG.INI" file and also specify the number of likes and followers to be done.
+4.Also add your HASHTAGS in the CONFIG.INI file 
+5.Also add your COMMENT to be posted in the CONFIG.INI file
+6.Now save everything 
+7.TO RUN THE FILE JUST DOUBLR CLICK ON THE "instabot.py" file
+
+
+
